@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tiro+Devanagari+Sanskrit:ital@1&family=Ubuntu:ital,wght@1,300&display=swap');
+.intro{
+    display: flex;
+    background: rgb(2,0,36);
+    background: linear-gradient(315deg, rgba(2,0,36,1) 0%, rgba(121,9,99,1) 53%, rgba(0,212,255,1) 100%);
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 270px;
+}
+.info{
+    width: 1200px;
+    padding-top: 30px;
+    height: 600px;
+}
+
+.myself{
+    width: 100%;
+    background: white;
+    border-radius: 20px;
+    box-shadow: 5px 10px grey;
+    padding: 15px 0px;
+}
+.personalText{
+    padding-top: 70px;
+}
+
+span{
+    font-size: 17px;
+    font-weight:bold;
+}
+i{
+    font-size: 1em;
+}
+.w{
+    border: 1px black solid;
+    border-radius: 50px;
+    padding: 10px;
+    color: black;
+    font-size: 20px;
+    padding: 15px 23px;
+    border-color: black;
+}
+
+.w:hover{
+    background-color: rgb(201, 197, 197);
+    color: black;
+    text-decoration: none;  
+}

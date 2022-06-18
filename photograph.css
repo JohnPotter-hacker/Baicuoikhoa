@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@1,300&display=swap');
+.col-lg-5{
+    text-align: center;
+}
+.ody{
+    background: rgba(238, 238, 238, 0.699);
+}
+.col-lg-7{
+    text-align: center;
+    background-image: url("best-travel-camera-guide-1-900x600.jpg.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.setpadding{
+    padding:0;
+}
+.H{
+    font: 40px 'Tiro Devanagari Sanskrit', serif;
+    margin-top: 100%;
+    margin-bottom:100%;
+    text-align: center;
+}
+.Ourwork{
+    margin:0;
+    border-left: 1px dotted white;
+    border-right: 1px dotted white;
+    color: white
+}
+
+#ImageProduct{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    font-family:'Tiro Devanagari Sanskrit', serif ;
+}
+
+#place{
+    background: rgba(66, 64, 64, 0.952);
+}
+
+.image{
+    background-image: url("https://1.bp.blogspot.com/-5sJNQFHtJJ4/XnL8med7_vI/AAAAAAAAZJg/fm-BaOUbSRUafX5dlG495HIoSjSqVFBjQCLcBGAsYHQ/s1600/Hinh-Anh-Bau-Troi-Dep%2B%25288%2529.jpg");
+    height: 500px;
+    background-size:cover ;
+    background-repeat: no-repeat;
+    width: 900px;
+}
+
+.image2{
+    background-image: url("https://1.bp.blogspot.com/-FZlDc7ejdjc/XnL8dVSoZoI/AAAAAAAAZHw/KnOvb-FEIyQqzcWaU9EoUDq-8QdFYovvACLcBGAsYHQ/s1600/Hinh-Anh-Bau-Troi-Dep%2B%252811%2529.jpg");
+    height: 500px;
+    background-size:cover ;
+    background-repeat: no-repeat;
+    width: 900px;
+}
+
+.image3{
+    background-image: url("https://img.thuthuatphanmem.vn/uploads/2018/10/09/anh-dep-nhat-the-gioi-ve-thien-nhien_041753462.jpg");
+    height: 500px;
+    background-size:cover ;
+    background-repeat: no-repeat;
+    width: 900px;
+}
+
+.image4{
+    background-image: url("https://img.thuthuatphanmem.vn/uploads/2018/10/09/anh-thien-nhien-bien-dep-nhat-the-gioi_041753649.jpg");
+    height: 500px;
+    background-size:cover ;
+    background-repeat: no-repeat;
+    width: 900px;
+}
+
+.image5{
+    background-image: url("https://img.thuthuatphanmem.vn/uploads/2018/10/09/anh-thien-nhien-dep-nhat_041753931.jpg");
+    height: 500px;
+    background-size:cover ;
+    background-repeat: no-repeat;
+    width: 900px;
+}
+
+.colorBackgroundImage{
+    background: rgb(228, 226, 226);
+    width: 900px;
+    padding: 20px 20px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    
+}
+.distance{
+    display:block;
+    margin-bottom: 20px;
+}
+.info{
+    margin-top: 70px;
+}
+i{
+    font-size: 50px;
+    margin: 5px;
+    color: black;
+}
+
+.work{
+    border: 1px black solid;
+    border-radius: 50px;
+    padding: 10px;
+    color: black;
+    font-size: 20px;
+    padding: 15px 23px;
+    border-color: rgb(115, 116, 117);
+}
+
+.work:hover{
+    background-color: rgb(201, 197, 197);
+    color: black;
+    text-decoration: none;  
+}
+
+.shadow{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+
+
