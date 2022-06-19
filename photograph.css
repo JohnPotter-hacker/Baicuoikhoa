@@ -1,5 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@1,300&display=swap');
+
+.gototop{
+    position: fixed;
+    bottom:20;
+    right: 65;
+}
+
 .col-lg-5{
     text-align: center;
 }
