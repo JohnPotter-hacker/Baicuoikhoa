@@ -1,6 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@1,300&display=swap');
 
+@keyframes example {
+    0% {background-color: red}
+    20% {background-color: yellow;}
+    40% {background-color: green;}
+    60% {background-color:aquamarine;}
+    80% {background-color: blue;}
+    100% {background-color:blueviolet;}
+  }
+
 .gototop{
     position: fixed;
     bottom:20;
@@ -11,7 +20,10 @@
     text-align: center;
 }
 .ody{
-    background: rgba(238, 238, 238, 0.699);
+    background: red;
+    animation-name: example;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
 }
 .col-lg-7{
     text-align: center;
@@ -127,6 +139,10 @@ i{
 .shadow{
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
+
+
+
+
 
 
 

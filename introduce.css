@@ -1,13 +1,33 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Tiro+Devanagari+Sanskrit:ital@1&family=Ubuntu:ital,wght@1,300&display=swap');
+
+
+@keyframes example {
+    0% {background: linear-gradient(193deg, rgba(121,9,99,1) 0%, rgba(0,212,255,1) 100%, rgba(30,93,175,1) 100%);}
+    10% {background: linear-gradient(193deg, rgba(121,9,99,1) 0%, rgba(0,212,255,1) 90%, rgba(30,93,175,1) 100%);}
+    20% {background: linear-gradient(183deg, rgba(121,9,99,1) 0%, rgba(0,212,255,1) 80%, rgba(30,93,175,1) 100%);}
+    30% {background: linear-gradient(173deg, rgba(121,9,99,1) 0%, rgba(0,212,255,1) 70%, rgba(30,93,175,1) 100%);}
+    40% {background: linear-gradient(163deg, rgba(121,9,99,1) 0%, rgba(0,212,255,1) 60%, rgba(30,93,175,1) 100%);}
+    50% {background: linear-gradient(153deg, rgba(121,9,99,1) 0%, rgba(0,212,255,1) 50%, rgba(30,93,175,1) 100%);}
+    60% {background: linear-gradient(143deg, rgba(121,9,99,1) 0%, rgba(0,212,255,1) 40%, rgba(30,93,175,1) 100%);}
+    70% {background: linear-gradient(133deg, rgba(121,9,99,1) 0%, rgba(0,212,255,1) 30%, rgba(30,93,175,1) 100%);}
+    80% {background: linear-gradient(123deg, rgba(121,9,99,1) 0%, rgba(0,212,255,1) 20%, rgba(30,93,175,1) 100%);}
+    90% {background: linear-gradient(113deg, rgba(121,9,99,1) 0%, rgba(0,212,255,1) 10%, rgba(30,93,175,1) 100%);}
+    100% {background: linear-gradient(103deg, rgba(121,9,99,1) 0%, rgba(0,212,255,1) 0%, rgba(30,93,175,1) 100%);}
+}
+
+
+
 .intro{
     display: flex;
-    background: rgb(2,0,36);
-    background: linear-gradient(315deg, rgba(2,0,36,1) 0%, rgba(121,9,99,1) 53%, rgba(0,212,255,1) 100%);
+    background: linear-gradient(315deg, rgba(2,0,36,1) 0%, rgba(121,9,99,1) 0%, rgba(0,212,255,1) 0%, rgba(0,212,255,1) 0%);
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
     margin-bottom: 270px;
+    animation-name: example;
+    animation-duration: 0.75s;
+    animation-iteration-count: infinite;
 }
 .info{
     width: 1200px;
@@ -48,3 +68,4 @@ i{
     color: black;
     text-decoration: none;  
 }
+
